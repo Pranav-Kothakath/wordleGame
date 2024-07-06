@@ -630,7 +630,7 @@ const checkInputGuess = (inputGuess) => {
     cellsInTheRow[i].textContent = guessedWordLetters[i];
     if (guessedWordLetters[i] === correctWordLetters[i]) {
       //make background green
-      cellsInTheRow[i].style.backgroundColor = "green";
+      cellsInTheRow[i].style.backgroundColor = "rgb(33, 238, 57)";
     } else if (correctWordLettersSet.has(guessedWordLetters[i])) {
       // make background yellow
       cellsInTheRow[i].style.backgroundColor = "yellow";
